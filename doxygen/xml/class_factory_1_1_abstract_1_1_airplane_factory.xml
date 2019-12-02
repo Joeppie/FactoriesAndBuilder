@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_factory_1_1_abstract_1_1_airplane_factory" kind="class" language="C#" prot="public">
+    <compoundname>Factory::Abstract::AirplaneFactory</compoundname>
+    <basecompoundref refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory" prot="public" virt="non-virtual">Factory.Abstract.IVehicleFactory</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_factory_1_1_abstract_1_1_airplane_factory_1af1a67d0a404389eac65c53be9b9e6c27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle" kindref="compound">Vehicle</ref></type>
+        <definition>Vehicle Factory.Abstract.AirplaneFactory.CreateGasolinePowered</definition>
+        <argsstring>()</argsstring>
+        <name>CreateGasolinePowered</name>
+        <reimplements refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory_1aab25772028c860c08ef385b2523849d8">CreateGasolinePowered</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Factory/Abstract/AirplaneFactory.cs" line="8" column="24" bodyfile="Factory/Abstract/AirplaneFactory.cs" bodystart="8" bodyend="11"/>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1af78c4c17bc40c02fba320f0bebac48d6" compoundref="_vehicle_builder_8cs" startline="60" endline="64">Products.ScifiVehicle.VehicleBuilder.AddWheels</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e397f0b77c789f568fe9a0855b03cfa" compoundref="_vehicle_builder_8cs" startline="66" endline="74">Products.ScifiVehicle.VehicleBuilder.WithColor</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a42f0b58ddb901b473969e6b73ecafb21" compoundref="_vehicle_builder_8cs" startline="55" endline="55">Products.ScifiVehicle.VehicleBuilder.WithGasolineEngine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_factory_1_1_abstract_1_1_airplane_factory_1abd9588c1f6cb32f2e855d3f7a2bb0511" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle" kindref="compound">Vehicle</ref></type>
+        <definition>Vehicle Factory.Abstract.AirplaneFactory.CreateJetPowered</definition>
+        <argsstring>()</argsstring>
+        <name>CreateJetPowered</name>
+        <reimplements refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory_1a66d25846ec4df53e7f0144671f1eab99">CreateJetPowered</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Factory/Abstract/AirplaneFactory.cs" line="13" column="24" bodyfile="Factory/Abstract/AirplaneFactory.cs" bodystart="13" bodyend="16"/>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1af78c4c17bc40c02fba320f0bebac48d6" compoundref="_vehicle_builder_8cs" startline="60" endline="64">Products.ScifiVehicle.VehicleBuilder.AddWheels</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e397f0b77c789f568fe9a0855b03cfa" compoundref="_vehicle_builder_8cs" startline="66" endline="74">Products.ScifiVehicle.VehicleBuilder.WithColor</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a878c003e2f4bfa0a1a794f8b32bc6696" compoundref="_vehicle_builder_8cs" startline="48" endline="54">Products.ScifiVehicle.VehicleBuilder.WithJetEngine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_factory_1_1_abstract_1_1_airplane_factory_1a08abcd7f4890dfcd697f1ae907d968c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle" kindref="compound">Vehicle</ref></type>
+        <definition>Vehicle Factory.Abstract.AirplaneFactory.CreatePeddlePowered</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePeddlePowered</name>
+        <reimplements refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory_1a518632dcd2f616a05cf645b81bdd62b5">CreatePeddlePowered</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Factory/Abstract/AirplaneFactory.cs" line="18" column="24" bodyfile="Factory/Abstract/AirplaneFactory.cs" bodystart="18" bodyend="21"/>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1af78c4c17bc40c02fba320f0bebac48d6" compoundref="_vehicle_builder_8cs" startline="60" endline="64">Products.ScifiVehicle.VehicleBuilder.AddWheels</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e397f0b77c789f568fe9a0855b03cfa" compoundref="_vehicle_builder_8cs" startline="66" endline="74">Products.ScifiVehicle.VehicleBuilder.WithColor</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1ae6bd5c5e9194a38b6dfaee569b48b029" compoundref="_vehicle_builder_8cs" startline="57" endline="57">Products.ScifiVehicle.VehicleBuilder.WithPeddles</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Factory.Abstract.AirplaneFactory</label>
+        <link refid="class_factory_1_1_abstract_1_1_airplane_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IVehicleFactory</label>
+        <link refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Factory.Abstract.AirplaneFactory</label>
+        <link refid="class_factory_1_1_abstract_1_1_airplane_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IVehicleFactory</label>
+        <link refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="Factory/Abstract/AirplaneFactory.cs" line="7" column="1" bodyfile="Factory/Abstract/AirplaneFactory.cs" bodystart="6" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_factory_1_1_abstract_1_1_airplane_factory_1af1a67d0a404389eac65c53be9b9e6c27" prot="public" virt="non-virtual"><scope>Factory::Abstract::AirplaneFactory</scope><name>CreateGasolinePowered</name></member>
+      <member refid="class_factory_1_1_abstract_1_1_airplane_factory_1abd9588c1f6cb32f2e855d3f7a2bb0511" prot="public" virt="non-virtual"><scope>Factory::Abstract::AirplaneFactory</scope><name>CreateJetPowered</name></member>
+      <member refid="class_factory_1_1_abstract_1_1_airplane_factory_1a08abcd7f4890dfcd697f1ae907d968c6" prot="public" virt="non-virtual"><scope>Factory::Abstract::AirplaneFactory</scope><name>CreatePeddlePowered</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

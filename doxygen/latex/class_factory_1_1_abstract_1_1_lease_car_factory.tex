@@ -1,0 +1,135 @@
+\hypertarget{class_factory_1_1_abstract_1_1_lease_car_factory}{}\doxysection{Factory.\+Abstract.\+Lease\+Car\+Factory Class Reference}
+\label{class_factory_1_1_abstract_1_1_lease_car_factory}\index{Factory.Abstract.LeaseCarFactory@{Factory.Abstract.LeaseCarFactory}}
+
+
+Inheritance diagram for Factory.\+Abstract.\+Lease\+Car\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{class_factory_1_1_abstract_1_1_lease_car_factory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Factory.\+Abstract.\+Lease\+Car\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{class_factory_1_1_abstract_1_1_lease_car_factory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_lease_car_factory_a449d5548a5430b1d7b8c15e7821590d4}{Create\+Gasoline\+Powered}} ()
+\item 
+\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_lease_car_factory_abd310f2bfdec75eb50dc23d55f66929f}{Create\+Jet\+Powered}} ()
+\begin{DoxyCompactList}\small\item\em Jet engines are not profitable in lease due to frequent crashes, so we just use a gasoline engine instead. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_lease_car_factory_a6b92c41565e5debd00db01f79ffb98b9}{Create\+Peddle\+Powered}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 6 of file Lease\+Car\+Factory.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_factory_1_1_abstract_1_1_lease_car_factory_a449d5548a5430b1d7b8c15e7821590d4}\label{class_factory_1_1_abstract_1_1_lease_car_factory_a449d5548a5430b1d7b8c15e7821590d4}} 
+\index{Factory.Abstract.LeaseCarFactory@{Factory.Abstract.LeaseCarFactory}!CreateGasolinePowered@{CreateGasolinePowered}}
+\index{CreateGasolinePowered@{CreateGasolinePowered}!Factory.Abstract.LeaseCarFactory@{Factory.Abstract.LeaseCarFactory}}
+\doxysubsubsection{\texorpdfstring{CreateGasolinePowered()}{CreateGasolinePowered()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} Factory.\+Abstract.\+Lease\+Car\+Factory.\+Create\+Gasoline\+Powered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_factory_1_1_abstract_1_1_i_vehicle_factory_aab25772028c860c08ef385b2523849d8}{Factory.\+Abstract.\+I\+Vehicle\+Factory}}.
+
+
+
+Definition at line 8 of file Lease\+Car\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{9         \{}
+\DoxyCodeLine{10             \textcolor{keywordflow}{return} \textcolor{keyword}{new} \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder}{VehicleBuilder}}().\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_af78c4c17bc40c02fba320f0bebac48d6}{AddWheels}}(4).\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a42f0b58ddb901b473969e6b73ecafb21}{WithGasolineEngine}}.\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a5e397f0b77c789f568fe9a0855b03cfa}{WithColor}}(Color.FromName(\textcolor{stringliteral}{"Gray"})).Build();}
+\DoxyCodeLine{11         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_factory_1_1_abstract_1_1_lease_car_factory_a449d5548a5430b1d7b8c15e7821590d4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_factory_1_1_abstract_1_1_lease_car_factory_abd310f2bfdec75eb50dc23d55f66929f}\label{class_factory_1_1_abstract_1_1_lease_car_factory_abd310f2bfdec75eb50dc23d55f66929f}} 
+\index{Factory.Abstract.LeaseCarFactory@{Factory.Abstract.LeaseCarFactory}!CreateJetPowered@{CreateJetPowered}}
+\index{CreateJetPowered@{CreateJetPowered}!Factory.Abstract.LeaseCarFactory@{Factory.Abstract.LeaseCarFactory}}
+\doxysubsubsection{\texorpdfstring{CreateJetPowered()}{CreateJetPowered()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} Factory.\+Abstract.\+Lease\+Car\+Factory.\+Create\+Jet\+Powered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Jet engines are not profitable in lease due to frequent crashes, so we just use a gasoline engine instead. 
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_factory_1_1_abstract_1_1_i_vehicle_factory_a66d25846ec4df53e7f0144671f1eab99}{Factory.\+Abstract.\+I\+Vehicle\+Factory}}.
+
+
+
+Definition at line 17 of file Lease\+Car\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{18         \{}
+\DoxyCodeLine{19             \textcolor{keywordflow}{return} \textcolor{keyword}{new} \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder}{VehicleBuilder}}().\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_af78c4c17bc40c02fba320f0bebac48d6}{AddWheels}}(4).\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a42f0b58ddb901b473969e6b73ecafb21}{WithGasolineEngine}}.\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a5e397f0b77c789f568fe9a0855b03cfa}{WithColor}}(Color.FromName(\textcolor{stringliteral}{"Gray"})).Build();}
+\DoxyCodeLine{20         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_factory_1_1_abstract_1_1_lease_car_factory_abd310f2bfdec75eb50dc23d55f66929f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_factory_1_1_abstract_1_1_lease_car_factory_a6b92c41565e5debd00db01f79ffb98b9}\label{class_factory_1_1_abstract_1_1_lease_car_factory_a6b92c41565e5debd00db01f79ffb98b9}} 
+\index{Factory.Abstract.LeaseCarFactory@{Factory.Abstract.LeaseCarFactory}!CreatePeddlePowered@{CreatePeddlePowered}}
+\index{CreatePeddlePowered@{CreatePeddlePowered}!Factory.Abstract.LeaseCarFactory@{Factory.Abstract.LeaseCarFactory}}
+\doxysubsubsection{\texorpdfstring{CreatePeddlePowered()}{CreatePeddlePowered()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} Factory.\+Abstract.\+Lease\+Car\+Factory.\+Create\+Peddle\+Powered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_factory_1_1_abstract_1_1_i_vehicle_factory_a518632dcd2f616a05cf645b81bdd62b5}{Factory.\+Abstract.\+I\+Vehicle\+Factory}}.
+
+
+
+Definition at line 22 of file Lease\+Car\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{23         \{}
+\DoxyCodeLine{24             \textcolor{keywordflow}{return} \textcolor{keyword}{new} \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder}{VehicleBuilder}}().\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_af78c4c17bc40c02fba320f0bebac48d6}{AddWheels}}(4).\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_ae6bd5c5e9194a38b6dfaee569b48b029}{WithPeddles}}.\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a5e397f0b77c789f568fe9a0855b03cfa}{WithColor}}(Color.FromName(\textcolor{stringliteral}{"Gray"})).Build();}
+\DoxyCodeLine{25         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_factory_1_1_abstract_1_1_lease_car_factory_a6b92c41565e5debd00db01f79ffb98b9_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Factory/\+Abstract/\mbox{\hyperlink{_lease_car_factory_8cs}{Lease\+Car\+Factory.\+cs}}\end{DoxyCompactItemize}

@@ -1,0 +1,7 @@
+<map id="Factory.Abstract.IVehicleFactory" name="Factory.Abstract.IVehicleFactory">
+<area shape="rect" id="node1" title=" " alt="" coords="313,5,495,127"/>
+<area shape="rect" id="node2" href="$class_factory_1_1_abstract_1_1_airplane_factory.html" title=" " alt="" coords="5,175,187,296"/>
+<area shape="rect" id="node3" href="$class_factory_1_1_abstract_1_1_bicycle_factory.html" title=" " alt="" coords="211,175,392,296"/>
+<area shape="rect" id="node4" href="$class_factory_1_1_abstract_1_1_flying_car_factory.html" title=" " alt="" coords="416,175,597,296"/>
+<area shape="rect" id="node5" href="$class_factory_1_1_abstract_1_1_lease_car_factory.html" title=" " alt="" coords="621,175,803,296"/>
+</map>

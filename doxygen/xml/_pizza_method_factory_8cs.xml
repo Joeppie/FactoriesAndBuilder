@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_pizza_method_factory_8cs" kind="file" language="C#">
+    <compoundname>PizzaMethodFactory.cs</compoundname>
+    <innerclass refid="class_factory_1_1_pizza_method_factory" prot="public">Factory::PizzaMethodFactory</innerclass>
+    <innerclass refid="class_factory_1_1_pizza_salami_factory" prot="public">Factory::PizzaSalamiFactory</innerclass>
+    <innerclass refid="class_factory_1_1_pizza_margherita_factory" prot="public">Factory::PizzaMargheritaFactory</innerclass>
+    <innernamespace refid="namespace_factory">Factory</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_products" kindref="compound">Products</ref>.<ref refid="namespace_products_1_1_pizzas" kindref="compound">Pizzas</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_factory" kindref="compound">Factory</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_factory_1_1_pizza_method_factory" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_factory_1_1_pizza_method_factory" kindref="compound">PizzaMethodFactory</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10" refid="class_factory_1_1_pizza_method_factory_1abe518fcef0026d9f7eb98476aa768bdd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_pizzas_1_1_pizza" kindref="compound">Pizza</ref><sp/><ref refid="class_factory_1_1_pizza_method_factory_1abe518fcef0026d9f7eb98476aa768bdd" kindref="member">CreatePizza</ref>()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_factory_1_1_pizza_method_factory_1a102b6d1bc0075836a8fd9cf8037a74ad" kindref="member">CookPizza</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_pizzas_1_1_pizza" kindref="compound">Pizza</ref><sp/><ref refid="class_factory_1_1_pizza_method_factory_1a102b6d1bc0075836a8fd9cf8037a74ad" kindref="member">CookPizza</ref>();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_factory_1_1_pizza_salami_factory" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_factory_1_1_pizza_salami_factory" kindref="compound">PizzaSalamiFactory</ref><sp/>:<sp/><ref refid="class_factory_1_1_pizza_method_factory" kindref="compound">PizzaMethodFactory</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="22" refid="class_factory_1_1_pizza_salami_factory_1a0ea2e82b2080ffb3bae3e2eb846f7bc4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_pizzas_1_1_salami_pizza" kindref="compound">SalamiPizza</ref><sp/><ref refid="class_factory_1_1_pizza_salami_factory_1a0ea2e82b2080ffb3bae3e2eb846f7bc4" kindref="member">_ignored</ref>;<sp/></highlight><highlight class="comment">//Ignored;<sp/>fix<sp/>for<sp/>doxygen</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="class_factory_1_1_pizza_salami_factory_1a833b1e26a3c6ee50303e530a8283ea42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_pizzas_1_1_pizza" kindref="compound">Pizza</ref><sp/><ref refid="class_factory_1_1_pizza_salami_factory_1a833b1e26a3c6ee50303e530a8283ea42" kindref="member">CookPizza</ref>()</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_pizzas_1_1_salami_pizza" kindref="compound">SalamiPizza</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="class_factory_1_1_pizza_margherita_factory" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_factory_1_1_pizza_margherita_factory" kindref="compound">PizzaMargheritaFactory</ref><sp/>:<sp/><ref refid="class_factory_1_1_pizza_method_factory" kindref="compound">PizzaMethodFactory</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31" refid="class_factory_1_1_pizza_margherita_factory_1a8ce6e21cf15972e7b13b062218561c22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_pizzas_1_1_salami_pizza" kindref="compound">SalamiPizza</ref><sp/><ref refid="class_factory_1_1_pizza_margherita_factory_1a8ce6e21cf15972e7b13b062218561c22" kindref="member">_ignored</ref>;<sp/></highlight><highlight class="comment">//Ignored;<sp/>fix<sp/>for<sp/>doxygen</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_factory_1_1_pizza_margherita_factory_1a490d6c62238a28a7dfa9bf048b916950" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_pizzas_1_1_pizza" kindref="compound">Pizza</ref><sp/><ref refid="class_factory_1_1_pizza_margherita_factory_1a490d6c62238a28a7dfa9bf048b916950" kindref="member">CookPizza</ref>()</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_pizzas_1_1_margherita_pizza" kindref="compound">MargheritaPizza</ref>();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Factory/Method/PizzaMethodFactory.cs"/>
+  </compounddef>
+</doxygen>

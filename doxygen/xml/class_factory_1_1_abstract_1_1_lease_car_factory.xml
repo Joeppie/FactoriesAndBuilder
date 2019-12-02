@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_factory_1_1_abstract_1_1_lease_car_factory" kind="class" language="C#" prot="public">
+    <compoundname>Factory::Abstract::LeaseCarFactory</compoundname>
+    <basecompoundref refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory" prot="public" virt="non-virtual">Factory.Abstract.IVehicleFactory</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_factory_1_1_abstract_1_1_lease_car_factory_1a449d5548a5430b1d7b8c15e7821590d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle" kindref="compound">Vehicle</ref></type>
+        <definition>Vehicle Factory.Abstract.LeaseCarFactory.CreateGasolinePowered</definition>
+        <argsstring>()</argsstring>
+        <name>CreateGasolinePowered</name>
+        <reimplements refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory_1aab25772028c860c08ef385b2523849d8">CreateGasolinePowered</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Factory/Abstract/LeaseCarFactory.cs" line="8" column="24" bodyfile="Factory/Abstract/LeaseCarFactory.cs" bodystart="8" bodyend="11"/>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1af78c4c17bc40c02fba320f0bebac48d6" compoundref="_vehicle_builder_8cs" startline="60" endline="64">Products.ScifiVehicle.VehicleBuilder.AddWheels</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e397f0b77c789f568fe9a0855b03cfa" compoundref="_vehicle_builder_8cs" startline="66" endline="74">Products.ScifiVehicle.VehicleBuilder.WithColor</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a42f0b58ddb901b473969e6b73ecafb21" compoundref="_vehicle_builder_8cs" startline="55" endline="55">Products.ScifiVehicle.VehicleBuilder.WithGasolineEngine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_factory_1_1_abstract_1_1_lease_car_factory_1abd310f2bfdec75eb50dc23d55f66929f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle" kindref="compound">Vehicle</ref></type>
+        <definition>Vehicle Factory.Abstract.LeaseCarFactory.CreateJetPowered</definition>
+        <argsstring>()</argsstring>
+        <name>CreateJetPowered</name>
+        <reimplements refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory_1a66d25846ec4df53e7f0144671f1eab99">CreateJetPowered</reimplements>
+        <briefdescription>
+<para>Jet engines are not profitable in lease due to frequent crashes, so we just use a gasoline engine instead. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Factory/Abstract/LeaseCarFactory.cs" line="17" column="24" bodyfile="Factory/Abstract/LeaseCarFactory.cs" bodystart="17" bodyend="20"/>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1af78c4c17bc40c02fba320f0bebac48d6" compoundref="_vehicle_builder_8cs" startline="60" endline="64">Products.ScifiVehicle.VehicleBuilder.AddWheels</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e397f0b77c789f568fe9a0855b03cfa" compoundref="_vehicle_builder_8cs" startline="66" endline="74">Products.ScifiVehicle.VehicleBuilder.WithColor</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a42f0b58ddb901b473969e6b73ecafb21" compoundref="_vehicle_builder_8cs" startline="55" endline="55">Products.ScifiVehicle.VehicleBuilder.WithGasolineEngine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_factory_1_1_abstract_1_1_lease_car_factory_1a6b92c41565e5debd00db01f79ffb98b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle" kindref="compound">Vehicle</ref></type>
+        <definition>Vehicle Factory.Abstract.LeaseCarFactory.CreatePeddlePowered</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePeddlePowered</name>
+        <reimplements refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory_1a518632dcd2f616a05cf645b81bdd62b5">CreatePeddlePowered</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Factory/Abstract/LeaseCarFactory.cs" line="22" column="24" bodyfile="Factory/Abstract/LeaseCarFactory.cs" bodystart="22" bodyend="25"/>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1af78c4c17bc40c02fba320f0bebac48d6" compoundref="_vehicle_builder_8cs" startline="60" endline="64">Products.ScifiVehicle.VehicleBuilder.AddWheels</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e397f0b77c789f568fe9a0855b03cfa" compoundref="_vehicle_builder_8cs" startline="66" endline="74">Products.ScifiVehicle.VehicleBuilder.WithColor</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1ae6bd5c5e9194a38b6dfaee569b48b029" compoundref="_vehicle_builder_8cs" startline="57" endline="57">Products.ScifiVehicle.VehicleBuilder.WithPeddles</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Factory.Abstract.LeaseCarFactory</label>
+        <link refid="class_factory_1_1_abstract_1_1_lease_car_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IVehicleFactory</label>
+        <link refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Factory.Abstract.LeaseCarFactory</label>
+        <link refid="class_factory_1_1_abstract_1_1_lease_car_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IVehicleFactory</label>
+        <link refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="Factory/Abstract/LeaseCarFactory.cs" line="7" column="1" bodyfile="Factory/Abstract/LeaseCarFactory.cs" bodystart="6" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_factory_1_1_abstract_1_1_lease_car_factory_1a449d5548a5430b1d7b8c15e7821590d4" prot="public" virt="non-virtual"><scope>Factory::Abstract::LeaseCarFactory</scope><name>CreateGasolinePowered</name></member>
+      <member refid="class_factory_1_1_abstract_1_1_lease_car_factory_1abd310f2bfdec75eb50dc23d55f66929f" prot="public" virt="non-virtual"><scope>Factory::Abstract::LeaseCarFactory</scope><name>CreateJetPowered</name></member>
+      <member refid="class_factory_1_1_abstract_1_1_lease_car_factory_1a6b92c41565e5debd00db01f79ffb98b9" prot="public" virt="non-virtual"><scope>Factory::Abstract::LeaseCarFactory</scope><name>CreatePeddlePowered</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

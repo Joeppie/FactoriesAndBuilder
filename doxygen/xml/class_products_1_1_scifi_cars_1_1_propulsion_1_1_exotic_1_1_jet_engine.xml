@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine" kind="class" language="C#" prot="package">
+    <compoundname>Products::ScifiCars::Propulsion::Exotic::JetEngine</compoundname>
+    <basecompoundref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system" prot="public" virt="non-virtual">Products.ScifiCars.Propulsion.PropulsionSystem</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine_1aac3f5bdf1e29a593c93c9d81985776f6" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string Products.ScifiCars.Propulsion.Exotic.JetEngine.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <initializer>=&gt; &quot;A jet engine which produces a lot of thrust.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/Propulsion/Exotic/JetEngine.cs" line="5" column="32" bodyfile="Products/ScifiVehicle/Propulsion/Exotic/JetEngine.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Products.ScifiCars.Propulsion.Exotic.JetEngine</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropulsionSystem</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Products.ScifiCars.Propulsion.Exotic.JetEngine</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PropulsionSystem</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system"/>
+      </node>
+    </collaborationgraph>
+    <location file="Products/ScifiVehicle/Propulsion/Exotic/JetEngine.cs" line="4" column="1" bodyfile="Products/ScifiVehicle/Propulsion/Exotic/JetEngine.cs" bodystart="3" bodyend="6"/>
+    <listofallmembers>
+      <member refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1ac25a01e3304c4c00b5e12741cade7c8f" prot="public" virt="non-virtual"><scope>Products::ScifiCars::Propulsion::Exotic::JetEngine</scope><name>CanFly</name></member>
+      <member refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine_1aac3f5bdf1e29a593c93c9d81985776f6" prot="public" virt="non-virtual"><scope>Products::ScifiCars::Propulsion::Exotic::JetEngine</scope><name>Description</name></member>
+      <member refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a5502848d179f88e2fb831fed562f0de4" prot="public" virt="non-virtual"><scope>Products::ScifiCars::Propulsion::Exotic::JetEngine</scope><name>fuelEfficiencyPercent</name></member>
+      <member refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a1bc90ae009a136a9acd2f1660093d89f" prot="public" virt="non-virtual"><scope>Products::ScifiCars::Propulsion::Exotic::JetEngine</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

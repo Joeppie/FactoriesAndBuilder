@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_factory_1_1_pizza_salami_factory" kind="class" language="C#" prot="public">
+    <compoundname>Factory::PizzaSalamiFactory</compoundname>
+    <basecompoundref refid="class_factory_1_1_pizza_method_factory" prot="public" virt="non-virtual">Factory.PizzaMethodFactory</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_factory_1_1_pizza_salami_factory_1a0ea2e82b2080ffb3bae3e2eb846f7bc4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_products_1_1_pizzas_1_1_salami_pizza" kindref="compound">SalamiPizza</ref></type>
+        <definition>SalamiPizza Factory.PizzaSalamiFactory._ignored</definition>
+        <argsstring></argsstring>
+        <name>_ignored</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Factory/Method/PizzaMethodFactory.cs" line="22" column="29" bodyfile="Factory/Method/PizzaMethodFactory.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_factory_1_1_pizza_salami_factory_1a833b1e26a3c6ee50303e530a8283ea42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override <ref refid="class_products_1_1_pizzas_1_1_pizza" kindref="compound">Pizza</ref></type>
+        <definition>override Pizza Factory.PizzaSalamiFactory.CookPizza</definition>
+        <argsstring>()</argsstring>
+        <name>CookPizza</name>
+        <reimplements refid="class_factory_1_1_pizza_method_factory_1a102b6d1bc0075836a8fd9cf8037a74ad">CookPizza</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Factory/Method/PizzaMethodFactory.cs" line="23" column="31" bodyfile="Factory/Method/PizzaMethodFactory.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PizzaMethodFactory</label>
+        <link refid="class_factory_1_1_pizza_method_factory"/>
+      </node>
+      <node id="1">
+        <label>Factory.PizzaSalamiFactory</label>
+        <link refid="class_factory_1_1_pizza_salami_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Products.Pizzas.SalamiPizza</label>
+        <link refid="class_products_1_1_pizzas_1_1_salami_pizza"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Pizza</label>
+        <link refid="class_products_1_1_pizzas_1_1_pizza"/>
+      </node>
+      <node id="2">
+        <label>PizzaMethodFactory</label>
+        <link refid="class_factory_1_1_pizza_method_factory"/>
+      </node>
+      <node id="1">
+        <label>Factory.PizzaSalamiFactory</label>
+        <link refid="class_factory_1_1_pizza_salami_factory"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>-_ignored</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Factory/Method/PizzaMethodFactory.cs" line="21" column="1" bodyfile="Factory/Method/PizzaMethodFactory.cs" bodystart="20" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_factory_1_1_pizza_salami_factory_1a0ea2e82b2080ffb3bae3e2eb846f7bc4" prot="private" virt="non-virtual"><scope>Factory::PizzaSalamiFactory</scope><name>_ignored</name></member>
+      <member refid="class_factory_1_1_pizza_salami_factory_1a833b1e26a3c6ee50303e530a8283ea42" prot="public" virt="virtual"><scope>Factory::PizzaSalamiFactory</scope><name>CookPizza</name></member>
+      <member refid="class_factory_1_1_pizza_method_factory_1abe518fcef0026d9f7eb98476aa768bdd" prot="public" virt="non-virtual"><scope>Factory::PizzaSalamiFactory</scope><name>CreatePizza</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

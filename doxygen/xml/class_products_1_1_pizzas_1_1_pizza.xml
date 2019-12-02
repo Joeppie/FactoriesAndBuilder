@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_products_1_1_pizzas_1_1_pizza" kind="class" language="C#" prot="public">
+    <compoundname>Products::Pizzas::Pizza</compoundname>
+    <derivedcompoundref refid="class_products_1_1_pizzas_1_1_margherita_pizza" prot="public" virt="non-virtual">Products.Pizzas.MargheritaPizza</derivedcompoundref>
+    <derivedcompoundref refid="class_products_1_1_pizzas_1_1_salami_pizza" prot="public" virt="non-virtual">Products.Pizzas.SalamiPizza</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Products.Pizzas.SalamiPizza</label>
+        <link refid="class_products_1_1_pizzas_1_1_salami_pizza"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Products.Pizzas.MargheritaPizza</label>
+        <link refid="class_products_1_1_pizzas_1_1_margherita_pizza"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Products.Pizzas.Pizza</label>
+        <link refid="class_products_1_1_pizzas_1_1_pizza"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Products.Pizzas.Pizza</label>
+        <link refid="class_products_1_1_pizzas_1_1_pizza"/>
+      </node>
+    </collaborationgraph>
+    <location file="Products/Pizzas/Pizzas.cs" line="8" column="1" bodyfile="Products/Pizzas/Pizzas.cs" bodystart="7" bodyend="9"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

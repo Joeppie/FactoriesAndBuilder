@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder" kind="class" language="C#" prot="public">
+    <compoundname>Products::ScifiVehicle::VehicleBuilder</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e2b77206f7ee7c7735a93c0c7bd3f5e" prot="private" static="no" mutable="no">
+        <type>int?</type>
+        <definition>int? Products.ScifiVehicle.VehicleBuilder.wheels</definition>
+        <argsstring></argsstring>
+        <name>wheels</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="18" column="13" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a2aa215c9bdec70050f58c6e5581da730" compoundref="_vehicle_builder_8cs" startline="23" endline="44">Products.ScifiVehicle.VehicleBuilder.Build</referencedby>
+        <referencedby refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1af78c4c17bc40c02fba320f0bebac48d6" compoundref="_vehicle_builder_8cs" startline="60" endline="64">Products.ScifiVehicle.VehicleBuilder.AddWheels</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a236188df10028acf449bbff9332960ed" prot="private" static="no" mutable="no">
+        <type>Color?</type>
+        <definition>Color? Products.ScifiVehicle.VehicleBuilder.vehicleColor</definition>
+        <argsstring></argsstring>
+        <name>vehicleColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="19" column="15" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a2aa215c9bdec70050f58c6e5581da730" compoundref="_vehicle_builder_8cs" startline="23" endline="44">Products.ScifiVehicle.VehicleBuilder.Build</referencedby>
+        <referencedby refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e397f0b77c789f568fe9a0855b03cfa" compoundref="_vehicle_builder_8cs" startline="66" endline="74">Products.ScifiVehicle.VehicleBuilder.WithColor</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1ab99d1bd70e412c95268abacd27d7ac5d" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system" kindref="compound">PropulsionSystem</ref> &gt;</type>
+        <definition>List&lt;PropulsionSystem&gt; Products.ScifiVehicle.VehicleBuilder.propulsionSystems</definition>
+        <argsstring></argsstring>
+        <name>propulsionSystems</name>
+        <initializer>= new List&lt;<ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system" kindref="compound">PropulsionSystem</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="20" column="14" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a2aa215c9bdec70050f58c6e5581da730" compoundref="_vehicle_builder_8cs" startline="23" endline="44">Products.ScifiVehicle.VehicleBuilder.Build</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1aa776e9c20576c07a02c4b0572cd7e0d4" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Products.ScifiVehicle.VehicleBuilder.canFly</definition>
+        <argsstring></argsstring>
+        <name>canFly</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="21" column="14" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a2aa215c9bdec70050f58c6e5581da730" compoundref="_vehicle_builder_8cs" startline="23" endline="44">Products.ScifiVehicle.VehicleBuilder.Build</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a878c003e2f4bfa0a1a794f8b32bc6696" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder" kindref="compound">VehicleBuilder</ref></type>
+        <definition>VehicleBuilder Products.ScifiVehicle.VehicleBuilder.WithJetEngine</definition>
+        <argsstring></argsstring>
+        <name>WithJetEngine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="47" column="31" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="48" bodyend="54"/>
+        <referencedby refid="class_factory_1_1_abstract_1_1_airplane_factory_1abd9588c1f6cb32f2e855d3f7a2bb0511" compoundref="_airplane_factory_8cs" startline="13" endline="16">Factory.Abstract.AirplaneFactory.CreateJetPowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_bicycle_factory_1a759c5ac6514ffdc41913043dd4f3c55b" compoundref="_bicycle_factory_8cs" startline="21" endline="24">Factory.Abstract.BicycleFactory.CreateJetPowered</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a42f0b58ddb901b473969e6b73ecafb21" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder" kindref="compound">VehicleBuilder</ref></type>
+        <definition>VehicleBuilder Products.ScifiVehicle.VehicleBuilder.WithGasolineEngine</definition>
+        <argsstring></argsstring>
+        <name>WithGasolineEngine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="55" column="31" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="55" bodyend="55"/>
+        <referencedby refid="class_factory_1_1_abstract_1_1_airplane_factory_1af1a67d0a404389eac65c53be9b9e6c27" compoundref="_airplane_factory_8cs" startline="8" endline="11">Factory.Abstract.AirplaneFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_bicycle_factory_1a1760277312c6830d6d3f4f65a2f797f8" compoundref="_bicycle_factory_8cs" startline="11" endline="14">Factory.Abstract.BicycleFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_flying_car_factory_1a38ce4dc05cc16c94ccfe78d8cb3e697c" compoundref="_flying_car_factory_8cs" startline="8" endline="11">Factory.Abstract.FlyingCarFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_flying_car_factory_1a0ffd232f2d84e99996c462631410cb0b" compoundref="_flying_car_factory_8cs" startline="17" endline="20">Factory.Abstract.FlyingCarFactory.CreateJetPowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_lease_car_factory_1a449d5548a5430b1d7b8c15e7821590d4" compoundref="_lease_car_factory_8cs" startline="8" endline="11">Factory.Abstract.LeaseCarFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_lease_car_factory_1abd310f2bfdec75eb50dc23d55f66929f" compoundref="_lease_car_factory_8cs" startline="17" endline="20">Factory.Abstract.LeaseCarFactory.CreateJetPowered</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a044495f2e59599d2075de9b95e504102" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder" kindref="compound">VehicleBuilder</ref></type>
+        <definition>VehicleBuilder Products.ScifiVehicle.VehicleBuilder.WithAntiGrav</definition>
+        <argsstring></argsstring>
+        <name>WithAntiGrav</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="56" column="31" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="56" bodyend="56"/>
+        <referencedby refid="class_factory_1_1_abstract_1_1_flying_car_factory_1a38ce4dc05cc16c94ccfe78d8cb3e697c" compoundref="_flying_car_factory_8cs" startline="8" endline="11">Factory.Abstract.FlyingCarFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_flying_car_factory_1a0ffd232f2d84e99996c462631410cb0b" compoundref="_flying_car_factory_8cs" startline="17" endline="20">Factory.Abstract.FlyingCarFactory.CreateJetPowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_flying_car_factory_1a0b5ff09f504d9b138805f22cd46ca641" compoundref="_flying_car_factory_8cs" startline="22" endline="25">Factory.Abstract.FlyingCarFactory.CreatePeddlePowered</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1ae6bd5c5e9194a38b6dfaee569b48b029" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder" kindref="compound">VehicleBuilder</ref></type>
+        <definition>VehicleBuilder Products.ScifiVehicle.VehicleBuilder.WithPeddles</definition>
+        <argsstring></argsstring>
+        <name>WithPeddles</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="57" column="31" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="57" bodyend="57"/>
+        <referencedby refid="class_factory_1_1_abstract_1_1_airplane_factory_1a08abcd7f4890dfcd697f1ae907d968c6" compoundref="_airplane_factory_8cs" startline="18" endline="21">Factory.Abstract.AirplaneFactory.CreatePeddlePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_bicycle_factory_1a759c5ac6514ffdc41913043dd4f3c55b" compoundref="_bicycle_factory_8cs" startline="21" endline="24">Factory.Abstract.BicycleFactory.CreateJetPowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_bicycle_factory_1a7e0facba03372dc1c456562f5140a2b7" compoundref="_bicycle_factory_8cs" startline="26" endline="29">Factory.Abstract.BicycleFactory.CreatePeddlePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_flying_car_factory_1a0b5ff09f504d9b138805f22cd46ca641" compoundref="_flying_car_factory_8cs" startline="22" endline="25">Factory.Abstract.FlyingCarFactory.CreatePeddlePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_lease_car_factory_1a6b92c41565e5debd00db01f79ffb98b9" compoundref="_lease_car_factory_8cs" startline="22" endline="25">Factory.Abstract.LeaseCarFactory.CreatePeddlePowered</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1acf0976d7dc7429d9e9050ac04181f410" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder" kindref="compound">VehicleBuilder</ref></type>
+        <definition>VehicleBuilder Products.ScifiVehicle.VehicleBuilder.CanFly</definition>
+        <argsstring></argsstring>
+        <name>CanFly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="58" column="31" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a2aa215c9bdec70050f58c6e5581da730" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle" kindref="compound">Vehicle</ref></type>
+        <definition>Vehicle Products.ScifiVehicle.VehicleBuilder.Build</definition>
+        <argsstring>()</argsstring>
+        <name>Build</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="23" column="24" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="23" bodyend="44"/>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1aa776e9c20576c07a02c4b0572cd7e0d4" compoundref="_vehicle_builder_8cs" startline="21">Products.ScifiVehicle.VehicleBuilder.canFly</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1ab99d1bd70e412c95268abacd27d7ac5d" compoundref="_vehicle_builder_8cs" startline="20">Products.ScifiVehicle.VehicleBuilder.propulsionSystems</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a236188df10028acf449bbff9332960ed" compoundref="_vehicle_builder_8cs" startline="19">Products.ScifiVehicle.VehicleBuilder.vehicleColor</references>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e2b77206f7ee7c7735a93c0c7bd3f5e" compoundref="_vehicle_builder_8cs" startline="18">Products.ScifiVehicle.VehicleBuilder.wheels</references>
+      </memberdef>
+      <memberdef kind="function" id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1af78c4c17bc40c02fba320f0bebac48d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder" kindref="compound">VehicleBuilder</ref></type>
+        <definition>VehicleBuilder Products.ScifiVehicle.VehicleBuilder.AddWheels</definition>
+        <argsstring>(int number)</argsstring>
+        <name>AddWheels</name>
+        <param>
+          <type>int</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="60" column="31" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="60" bodyend="64"/>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e2b77206f7ee7c7735a93c0c7bd3f5e" compoundref="_vehicle_builder_8cs" startline="18">Products.ScifiVehicle.VehicleBuilder.wheels</references>
+        <referencedby refid="class_factory_1_1_abstract_1_1_airplane_factory_1af1a67d0a404389eac65c53be9b9e6c27" compoundref="_airplane_factory_8cs" startline="8" endline="11">Factory.Abstract.AirplaneFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_lease_car_factory_1a449d5548a5430b1d7b8c15e7821590d4" compoundref="_lease_car_factory_8cs" startline="8" endline="11">Factory.Abstract.LeaseCarFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_flying_car_factory_1a38ce4dc05cc16c94ccfe78d8cb3e697c" compoundref="_flying_car_factory_8cs" startline="8" endline="11">Factory.Abstract.FlyingCarFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_bicycle_factory_1a1760277312c6830d6d3f4f65a2f797f8" compoundref="_bicycle_factory_8cs" startline="11" endline="14">Factory.Abstract.BicycleFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_airplane_factory_1abd9588c1f6cb32f2e855d3f7a2bb0511" compoundref="_airplane_factory_8cs" startline="13" endline="16">Factory.Abstract.AirplaneFactory.CreateJetPowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_flying_car_factory_1a0ffd232f2d84e99996c462631410cb0b" compoundref="_flying_car_factory_8cs" startline="17" endline="20">Factory.Abstract.FlyingCarFactory.CreateJetPowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_lease_car_factory_1abd310f2bfdec75eb50dc23d55f66929f" compoundref="_lease_car_factory_8cs" startline="17" endline="20">Factory.Abstract.LeaseCarFactory.CreateJetPowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_bicycle_factory_1a759c5ac6514ffdc41913043dd4f3c55b" compoundref="_bicycle_factory_8cs" startline="21" endline="24">Factory.Abstract.BicycleFactory.CreateJetPowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_airplane_factory_1a08abcd7f4890dfcd697f1ae907d968c6" compoundref="_airplane_factory_8cs" startline="18" endline="21">Factory.Abstract.AirplaneFactory.CreatePeddlePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_lease_car_factory_1a6b92c41565e5debd00db01f79ffb98b9" compoundref="_lease_car_factory_8cs" startline="22" endline="25">Factory.Abstract.LeaseCarFactory.CreatePeddlePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_flying_car_factory_1a0b5ff09f504d9b138805f22cd46ca641" compoundref="_flying_car_factory_8cs" startline="22" endline="25">Factory.Abstract.FlyingCarFactory.CreatePeddlePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_bicycle_factory_1a7e0facba03372dc1c456562f5140a2b7" compoundref="_bicycle_factory_8cs" startline="26" endline="29">Factory.Abstract.BicycleFactory.CreatePeddlePowered</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e397f0b77c789f568fe9a0855b03cfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder" kindref="compound">VehicleBuilder</ref></type>
+        <definition>VehicleBuilder Products.ScifiVehicle.VehicleBuilder.WithColor</definition>
+        <argsstring>(Color color)</argsstring>
+        <name>WithColor</name>
+        <param>
+          <type>Color</type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="66" column="31" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="66" bodyend="74"/>
+        <references refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a236188df10028acf449bbff9332960ed" compoundref="_vehicle_builder_8cs" startline="19">Products.ScifiVehicle.VehicleBuilder.vehicleColor</references>
+        <referencedby refid="class_factory_1_1_abstract_1_1_airplane_factory_1af1a67d0a404389eac65c53be9b9e6c27" compoundref="_airplane_factory_8cs" startline="8" endline="11">Factory.Abstract.AirplaneFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_lease_car_factory_1a449d5548a5430b1d7b8c15e7821590d4" compoundref="_lease_car_factory_8cs" startline="8" endline="11">Factory.Abstract.LeaseCarFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_flying_car_factory_1a38ce4dc05cc16c94ccfe78d8cb3e697c" compoundref="_flying_car_factory_8cs" startline="8" endline="11">Factory.Abstract.FlyingCarFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_bicycle_factory_1a1760277312c6830d6d3f4f65a2f797f8" compoundref="_bicycle_factory_8cs" startline="11" endline="14">Factory.Abstract.BicycleFactory.CreateGasolinePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_airplane_factory_1abd9588c1f6cb32f2e855d3f7a2bb0511" compoundref="_airplane_factory_8cs" startline="13" endline="16">Factory.Abstract.AirplaneFactory.CreateJetPowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_flying_car_factory_1a0ffd232f2d84e99996c462631410cb0b" compoundref="_flying_car_factory_8cs" startline="17" endline="20">Factory.Abstract.FlyingCarFactory.CreateJetPowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_lease_car_factory_1abd310f2bfdec75eb50dc23d55f66929f" compoundref="_lease_car_factory_8cs" startline="17" endline="20">Factory.Abstract.LeaseCarFactory.CreateJetPowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_bicycle_factory_1a759c5ac6514ffdc41913043dd4f3c55b" compoundref="_bicycle_factory_8cs" startline="21" endline="24">Factory.Abstract.BicycleFactory.CreateJetPowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_airplane_factory_1a08abcd7f4890dfcd697f1ae907d968c6" compoundref="_airplane_factory_8cs" startline="18" endline="21">Factory.Abstract.AirplaneFactory.CreatePeddlePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_lease_car_factory_1a6b92c41565e5debd00db01f79ffb98b9" compoundref="_lease_car_factory_8cs" startline="22" endline="25">Factory.Abstract.LeaseCarFactory.CreatePeddlePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_flying_car_factory_1a0b5ff09f504d9b138805f22cd46ca641" compoundref="_flying_car_factory_8cs" startline="22" endline="25">Factory.Abstract.FlyingCarFactory.CreatePeddlePowered</referencedby>
+        <referencedby refid="class_factory_1_1_abstract_1_1_bicycle_factory_1a7e0facba03372dc1c456562f5140a2b7" compoundref="_bicycle_factory_8cs" startline="26" endline="29">Factory.Abstract.BicycleFactory.CreatePeddlePowered</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Allows you to Build vehicles that just .... work! </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Products.ScifiVehicle.VehicleBuilder</label>
+        <link refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder"/>
+      </node>
+    </collaborationgraph>
+    <location file="Products/ScifiVehicle/VehicleBuilder.cs" line="17" column="1" bodyfile="Products/ScifiVehicle/VehicleBuilder.cs" bodystart="16" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1af78c4c17bc40c02fba320f0bebac48d6" prot="public" virt="non-virtual"><scope>Products::ScifiVehicle::VehicleBuilder</scope><name>AddWheels</name></member>
+      <member refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a2aa215c9bdec70050f58c6e5581da730" prot="public" virt="non-virtual"><scope>Products::ScifiVehicle::VehicleBuilder</scope><name>Build</name></member>
+      <member refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1aa776e9c20576c07a02c4b0572cd7e0d4" prot="private" virt="non-virtual"><scope>Products::ScifiVehicle::VehicleBuilder</scope><name>canFly</name></member>
+      <member refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1acf0976d7dc7429d9e9050ac04181f410" prot="public" virt="non-virtual"><scope>Products::ScifiVehicle::VehicleBuilder</scope><name>CanFly</name></member>
+      <member refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1ab99d1bd70e412c95268abacd27d7ac5d" prot="private" virt="non-virtual"><scope>Products::ScifiVehicle::VehicleBuilder</scope><name>propulsionSystems</name></member>
+      <member refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a236188df10028acf449bbff9332960ed" prot="private" virt="non-virtual"><scope>Products::ScifiVehicle::VehicleBuilder</scope><name>vehicleColor</name></member>
+      <member refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e2b77206f7ee7c7735a93c0c7bd3f5e" prot="private" virt="non-virtual"><scope>Products::ScifiVehicle::VehicleBuilder</scope><name>wheels</name></member>
+      <member refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a044495f2e59599d2075de9b95e504102" prot="public" virt="non-virtual"><scope>Products::ScifiVehicle::VehicleBuilder</scope><name>WithAntiGrav</name></member>
+      <member refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e397f0b77c789f568fe9a0855b03cfa" prot="public" virt="non-virtual"><scope>Products::ScifiVehicle::VehicleBuilder</scope><name>WithColor</name></member>
+      <member refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a42f0b58ddb901b473969e6b73ecafb21" prot="public" virt="non-virtual"><scope>Products::ScifiVehicle::VehicleBuilder</scope><name>WithGasolineEngine</name></member>
+      <member refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a878c003e2f4bfa0a1a794f8b32bc6696" prot="public" virt="non-virtual"><scope>Products::ScifiVehicle::VehicleBuilder</scope><name>WithJetEngine</name></member>
+      <member refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1ae6bd5c5e9194a38b6dfaee569b48b029" prot="public" virt="non-virtual"><scope>Products::ScifiVehicle::VehicleBuilder</scope><name>WithPeddles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

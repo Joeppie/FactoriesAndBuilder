@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_factory_1_1_pizza_method_factory" kind="class" language="C#" prot="public" abstract="yes">
+    <compoundname>Factory::PizzaMethodFactory</compoundname>
+    <derivedcompoundref refid="class_factory_1_1_pizza_margherita_factory" prot="public" virt="non-virtual">Factory.PizzaMargheritaFactory</derivedcompoundref>
+    <derivedcompoundref refid="class_factory_1_1_pizza_salami_factory" prot="public" virt="non-virtual">Factory.PizzaSalamiFactory</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_factory_1_1_pizza_method_factory_1abe518fcef0026d9f7eb98476aa768bdd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_products_1_1_pizzas_1_1_pizza" kindref="compound">Pizza</ref></type>
+        <definition>Pizza Factory.PizzaMethodFactory.CreatePizza</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePizza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Factory/Method/PizzaMethodFactory.cs" line="10" column="22" bodyfile="Factory/Method/PizzaMethodFactory.cs" bodystart="10" bodyend="13"/>
+        <references refid="class_factory_1_1_pizza_method_factory_1a102b6d1bc0075836a8fd9cf8037a74ad">Factory.PizzaMethodFactory.CookPizza</references>
+      </memberdef>
+      <memberdef kind="function" id="class_factory_1_1_pizza_method_factory_1a102b6d1bc0075836a8fd9cf8037a74ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract <ref refid="class_products_1_1_pizzas_1_1_pizza" kindref="compound">Pizza</ref></type>
+        <definition>abstract Pizza Factory.PizzaMethodFactory.CookPizza</definition>
+        <argsstring>()</argsstring>
+        <name>CookPizza</name>
+        <reimplementedby refid="class_factory_1_1_pizza_salami_factory_1a833b1e26a3c6ee50303e530a8283ea42">CookPizza</reimplementedby>
+        <reimplementedby refid="class_factory_1_1_pizza_margherita_factory_1a490d6c62238a28a7dfa9bf048b916950">CookPizza</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Factory/Method/PizzaMethodFactory.cs" line="15" column="31"/>
+        <referencedby refid="class_factory_1_1_pizza_method_factory_1abe518fcef0026d9f7eb98476aa768bdd" compoundref="_pizza_method_factory_8cs" startline="10" endline="13">Factory.PizzaMethodFactory.CreatePizza</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Factory.PizzaMargheritaFactory</label>
+        <link refid="class_factory_1_1_pizza_margherita_factory"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Factory.PizzaMethodFactory</label>
+        <link refid="class_factory_1_1_pizza_method_factory"/>
+      </node>
+      <node id="3">
+        <label>Factory.PizzaSalamiFactory</label>
+        <link refid="class_factory_1_1_pizza_salami_factory"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Factory.PizzaMethodFactory</label>
+        <link refid="class_factory_1_1_pizza_method_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="Factory/Method/PizzaMethodFactory.cs" line="9" column="1" bodyfile="Factory/Method/PizzaMethodFactory.cs" bodystart="8" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_factory_1_1_pizza_method_factory_1a102b6d1bc0075836a8fd9cf8037a74ad" prot="public" virt="pure-virtual"><scope>Factory::PizzaMethodFactory</scope><name>CookPizza</name></member>
+      <member refid="class_factory_1_1_pizza_method_factory_1abe518fcef0026d9f7eb98476aa768bdd" prot="public" virt="non-virtual"><scope>Factory::PizzaMethodFactory</scope><name>CreatePizza</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

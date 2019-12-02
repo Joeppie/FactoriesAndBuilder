@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_15b39b9ec447a88b1d6c070f5bec3419" kind="dir">
+    <compoundname>Products/ScifiVehicle/Propulsion</compoundname>
+    <innerdir refid="dir_ce15d60b3d80efc8b34d04ee3a94fc76">Products/ScifiVehicle/Propulsion/Conventional</innerdir>
+    <innerdir refid="dir_d0184e4104ab6247218c875604b91e7c">Products/ScifiVehicle/Propulsion/Exotic</innerdir>
+    <innerfile refid="_propulsion_system_8cs">PropulsionSystem.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Products/ScifiVehicle/Propulsion/"/>
+  </compounddef>
+</doxygen>

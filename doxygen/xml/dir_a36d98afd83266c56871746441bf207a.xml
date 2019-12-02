@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_a36d98afd83266c56871746441bf207a" kind="dir">
+    <compoundname>Factory/Abstract</compoundname>
+    <innerfile refid="_airplane_factory_8cs">AirplaneFactory.cs</innerfile>
+    <innerfile refid="_bicycle_factory_8cs">BicycleFactory.cs</innerfile>
+    <innerfile refid="_flying_car_factory_8cs">FlyingCarFactory.cs</innerfile>
+    <innerfile refid="_i_vehicle_factory_8cs">IVehicleFactory.cs</innerfile>
+    <innerfile refid="_lease_car_factory_8cs">LeaseCarFactory.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Factory/Abstract/"/>
+  </compounddef>
+</doxygen>

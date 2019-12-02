@@ -1,0 +1,7 @@
+<map id="Products.ScifiCars.Propulsion.PropulsionSystem" name="Products.ScifiCars.Propulsion.PropulsionSystem">
+<area shape="rect" id="node1" title=" " alt="" coords="339,5,537,127"/>
+<area shape="rect" id="node2" href="$class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_gasoline_engine.html" title=" " alt="" coords="5,175,204,267"/>
+<area shape="rect" id="node3" href="$class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles.html" title=" " alt="" coords="228,175,427,267"/>
+<area shape="rect" id="node4" href="$class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_anti_gravity_pads.html" title=" " alt="" coords="451,175,649,267"/>
+<area shape="rect" id="node5" href="$class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine.html" title=" " alt="" coords="673,175,872,267"/>
+</map>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_factory" kind="namespace" language="C#">
+    <compoundname>Factory</compoundname>
+    <innerclass refid="class_factory_1_1_pizza_margherita_factory" prot="public">Factory::PizzaMargheritaFactory</innerclass>
+    <innerclass refid="class_factory_1_1_pizza_method_factory" prot="public">Factory::PizzaMethodFactory</innerclass>
+    <innerclass refid="class_factory_1_1_pizza_salami_factory" prot="public">Factory::PizzaSalamiFactory</innerclass>
+    <innernamespace refid="namespace_factory_1_1_abstract">Factory::Abstract</innernamespace>
+    <innernamespace refid="namespace_factory_1_1_simple">Factory::Simple</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Factory/Abstract/AirplaneFactory.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

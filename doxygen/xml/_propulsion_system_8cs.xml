@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_propulsion_system_8cs" kind="file" language="C#">
+    <compoundname>PropulsionSystem.cs</compoundname>
+    <innerclass refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system" prot="public">Products::ScifiCars::Propulsion::PropulsionSystem</innerclass>
+    <innernamespace refid="namespace_products">Products</innernamespace>
+    <innernamespace refid="namespace_products_1_1_scifi_cars">Products::ScifiCars</innernamespace>
+    <innernamespace refid="namespace_products_1_1_scifi_cars_1_1_propulsion">Products::ScifiCars::Propulsion</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_products_1_1_scifi_cars_1_1_propulsion" kindref="compound">Products.ScifiCars.Propulsion</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system" kindref="compound">PropulsionSystem</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1ac25a01e3304c4c00b5e12741cade7c8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1ac25a01e3304c4c00b5e12741cade7c8f" kindref="member">CanFly</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="6" refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a5502848d179f88e2fb831fed562f0de4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a5502848d179f88e2fb831fed562f0de4" kindref="member">fuelEfficiencyPercent</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a1bc90ae009a136a9acd2f1660093d89f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a1bc90ae009a136a9acd2f1660093d89f" kindref="member">ToString</ref>()</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a6ea142748a53ac26c3538660a6440120" kindref="member">Description</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">abstract</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a6ea142748a53ac26c3538660a6440120" kindref="member">Description</ref></highlight></codeline>
+<codeline lineno="15" refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a6ea142748a53ac26c3538660a6440120" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Products/ScifiVehicle/Propulsion/PropulsionSystem.cs"/>
+  </compounddef>
+</doxygen>

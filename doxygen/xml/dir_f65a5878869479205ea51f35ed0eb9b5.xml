@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_f65a5878869479205ea51f35ed0eb9b5" kind="dir">
+    <compoundname>Factory/Method</compoundname>
+    <innerfile refid="_pizza_method_factory_8cs">PizzaMethodFactory.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Factory/Method/"/>
+  </compounddef>
+</doxygen>

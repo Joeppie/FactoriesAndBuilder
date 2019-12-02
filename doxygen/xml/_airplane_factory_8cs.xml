@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_airplane_factory_8cs" kind="file" language="C#">
+    <compoundname>AirplaneFactory.cs</compoundname>
+    <innerclass refid="class_factory_1_1_abstract_1_1_airplane_factory" prot="public">Factory::Abstract::AirplaneFactory</innerclass>
+    <innernamespace refid="namespace_factory">Factory</innernamespace>
+    <innernamespace refid="namespace_factory_1_1_abstract">Factory::Abstract</innernamespace>
+    <innernamespace refid="namespace_system_1_1_drawing">System::Drawing</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_products" kindref="compound">Products</ref>.<ref refid="namespace_products_1_1_scifi_vehicle" kindref="compound">ScifiVehicle</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Drawing;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_factory_1_1_abstract" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_factory_1_1_abstract" kindref="compound">Factory.Abstract</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6" refid="class_factory_1_1_abstract_1_1_airplane_factory" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_factory_1_1_abstract_1_1_airplane_factory" kindref="compound">AirplaneFactory</ref><sp/>:<sp/><ref refid="interface_factory_1_1_abstract_1_1_i_vehicle_factory" kindref="compound">IVehicleFactory</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="8" refid="class_factory_1_1_abstract_1_1_airplane_factory_1af1a67d0a404389eac65c53be9b9e6c27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle" kindref="compound">Vehicle</ref><sp/><ref refid="class_factory_1_1_abstract_1_1_airplane_factory_1af1a67d0a404389eac65c53be9b9e6c27" kindref="member">CreateGasolinePowered</ref>()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder" kindref="compound">VehicleBuilder</ref>().<ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1af78c4c17bc40c02fba320f0bebac48d6" kindref="member">AddWheels</ref>(3).<ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a42f0b58ddb901b473969e6b73ecafb21" kindref="member">WithGasolineEngine</ref>.<ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e397f0b77c789f568fe9a0855b03cfa" kindref="member">WithColor</ref>(Color.FromName(</highlight><highlight class="stringliteral">&quot;White&quot;</highlight><highlight class="normal">)).Build();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_factory_1_1_abstract_1_1_airplane_factory_1abd9588c1f6cb32f2e855d3f7a2bb0511" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle" kindref="compound">Vehicle</ref><sp/><ref refid="class_factory_1_1_abstract_1_1_airplane_factory_1abd9588c1f6cb32f2e855d3f7a2bb0511" kindref="member">CreateJetPowered</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder" kindref="compound">VehicleBuilder</ref>().<ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1af78c4c17bc40c02fba320f0bebac48d6" kindref="member">AddWheels</ref>(3).<ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a878c003e2f4bfa0a1a794f8b32bc6696" kindref="member">WithJetEngine</ref>.<ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e397f0b77c789f568fe9a0855b03cfa" kindref="member">WithColor</ref>(Color.FromName(</highlight><highlight class="stringliteral">&quot;White&quot;</highlight><highlight class="normal">)).Build();</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="class_factory_1_1_abstract_1_1_airplane_factory_1a08abcd7f4890dfcd697f1ae907d968c6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle" kindref="compound">Vehicle</ref><sp/><ref refid="class_factory_1_1_abstract_1_1_airplane_factory_1a08abcd7f4890dfcd697f1ae907d968c6" kindref="member">CreatePeddlePowered</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder" kindref="compound">VehicleBuilder</ref>().<ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1af78c4c17bc40c02fba320f0bebac48d6" kindref="member">AddWheels</ref>(3).<ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1ae6bd5c5e9194a38b6dfaee569b48b029" kindref="member">WithPeddles</ref>.<ref refid="class_products_1_1_scifi_vehicle_1_1_vehicle_builder_1a5e397f0b77c789f568fe9a0855b03cfa" kindref="member">WithColor</ref>(Color.FromName(</highlight><highlight class="stringliteral">&quot;White&quot;</highlight><highlight class="normal">)).Build();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Factory/Abstract/AirplaneFactory.cs"/>
+  </compounddef>
+</doxygen>

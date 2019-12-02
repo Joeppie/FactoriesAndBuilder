@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_d0184e4104ab6247218c875604b91e7c" kind="dir">
+    <compoundname>Products/ScifiVehicle/Propulsion/Exotic</compoundname>
+    <innerfile refid="_anti_gravity_pads_8cs">AntiGravityPads.cs</innerfile>
+    <innerfile refid="_jet_engine_8cs">JetEngine.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Products/ScifiVehicle/Propulsion/Exotic/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_08cbf82b24110198ff3938caeb9f7e21" kind="dir">
+    <compoundname>FactoriesAndBuilder</compoundname>
+    <innerdir refid="dir_6842b1dbadd1aa18838bb2409883c062">FactoriesAndBuilder/Properties</innerdir>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="FactoriesAndBuilder/"/>
+  </compounddef>
+</doxygen>

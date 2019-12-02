@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system" kind="class" language="C#" prot="public">
+    <compoundname>Products::ScifiCars::Propulsion::PropulsionSystem</compoundname>
+    <derivedcompoundref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_gasoline_engine" prot="public" virt="non-virtual">Products.ScifiCars.Propulsion.Conventional.GasolineEngine</derivedcompoundref>
+    <derivedcompoundref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles" prot="public" virt="non-virtual">Products.ScifiCars.Propulsion.Conventional.Peddles</derivedcompoundref>
+    <derivedcompoundref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_anti_gravity_pads" prot="public" virt="non-virtual">Products.ScifiCars.Propulsion.Exotic.AntiGravityPads</derivedcompoundref>
+    <derivedcompoundref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine" prot="public" virt="non-virtual">Products.ScifiCars.Propulsion.Exotic.JetEngine</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1ac25a01e3304c4c00b5e12741cade7c8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>bool</type>
+        <definition>bool Products.ScifiCars.Propulsion.PropulsionSystem.CanFly</definition>
+        <argsstring></argsstring>
+        <name>CanFly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/Propulsion/PropulsionSystem.cs" line="5" column="21" bodyfile="Products/ScifiVehicle/Propulsion/PropulsionSystem.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a5502848d179f88e2fb831fed562f0de4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>double</type>
+        <definition>double Products.ScifiCars.Propulsion.PropulsionSystem.fuelEfficiencyPercent</definition>
+        <argsstring></argsstring>
+        <name>fuelEfficiencyPercent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/Propulsion/PropulsionSystem.cs" line="6" column="23" bodyfile="Products/ScifiVehicle/Propulsion/PropulsionSystem.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a6ea142748a53ac26c3538660a6440120" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>abstract string</type>
+        <definition>abstract string Products.ScifiCars.Propulsion.PropulsionSystem.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/Propulsion/PropulsionSystem.cs" line="14" column="32" bodyfile="Products/ScifiVehicle/Propulsion/PropulsionSystem.cs" bodystart="15" bodyend="17"/>
+        <referencedby refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a1bc90ae009a136a9acd2f1660093d89f" compoundref="_propulsion_system_8cs" startline="9" endline="12">Products.ScifiCars.Propulsion.PropulsionSystem.ToString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a1bc90ae009a136a9acd2f1660093d89f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Products.ScifiCars.Propulsion.PropulsionSystem.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/Propulsion/PropulsionSystem.cs" line="9" column="32" bodyfile="Products/ScifiVehicle/Propulsion/PropulsionSystem.cs" bodystart="9" bodyend="12"/>
+        <references refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a6ea142748a53ac26c3538660a6440120" compoundref="_propulsion_system_8cs" startline="15" endline="17">Products.ScifiCars.Propulsion.PropulsionSystem.Description</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>Products.ScifiCars.Propulsion.Exotic.JetEngine</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Products.ScifiCars.Propulsion.Exotic.AntiGravityPads</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_anti_gravity_pads"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Products.ScifiCars.Propulsion.Conventional.GasolineEngine</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_gasoline_engine"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Products.ScifiCars.Propulsion.PropulsionSystem</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system"/>
+      </node>
+      <node id="3">
+        <label>Products.ScifiCars.Propulsion.Conventional.Peddles</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Products.ScifiCars.Propulsion.PropulsionSystem</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system"/>
+      </node>
+    </collaborationgraph>
+    <location file="Products/ScifiVehicle/Propulsion/PropulsionSystem.cs" line="4" column="1" bodyfile="Products/ScifiVehicle/Propulsion/PropulsionSystem.cs" bodystart="3" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1ac25a01e3304c4c00b5e12741cade7c8f" prot="public" virt="non-virtual"><scope>Products::ScifiCars::Propulsion::PropulsionSystem</scope><name>CanFly</name></member>
+      <member refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a6ea142748a53ac26c3538660a6440120" prot="public" virt="non-virtual"><scope>Products::ScifiCars::Propulsion::PropulsionSystem</scope><name>Description</name></member>
+      <member refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a5502848d179f88e2fb831fed562f0de4" prot="public" virt="non-virtual"><scope>Products::ScifiCars::Propulsion::PropulsionSystem</scope><name>fuelEfficiencyPercent</name></member>
+      <member refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a1bc90ae009a136a9acd2f1660093d89f" prot="public" virt="non-virtual"><scope>Products::ScifiCars::Propulsion::PropulsionSystem</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

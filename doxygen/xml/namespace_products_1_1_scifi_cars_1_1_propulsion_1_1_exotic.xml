@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic" kind="namespace" language="C#">
+    <compoundname>Products::ScifiCars::Propulsion::Exotic</compoundname>
+    <innerclass refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_anti_gravity_pads" prot="package">Products::ScifiCars::Propulsion::Exotic::AntiGravityPads</innerclass>
+    <innerclass refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine" prot="package">Products::ScifiCars::Propulsion::Exotic::JetEngine</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Products/ScifiVehicle/Propulsion/Exotic/AntiGravityPads.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

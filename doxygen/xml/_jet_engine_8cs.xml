@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_jet_engine_8cs" kind="file" language="C#">
+    <compoundname>JetEngine.cs</compoundname>
+    <innerclass refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine" prot="package">Products::ScifiCars::Propulsion::Exotic::JetEngine</innerclass>
+    <innernamespace refid="namespace_products">Products</innernamespace>
+    <innernamespace refid="namespace_products_1_1_scifi_cars">Products::ScifiCars</innernamespace>
+    <innernamespace refid="namespace_products_1_1_scifi_cars_1_1_propulsion">Products::ScifiCars::Propulsion</innernamespace>
+    <innernamespace refid="namespace_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic">Products::ScifiCars::Propulsion::Exotic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic" kindref="compound">Products.ScifiCars.Propulsion.Exotic</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine" kindref="compound">JetEngine</ref><sp/>:<sp/><ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system" kindref="compound">PropulsionSystem</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine_1aac3f5bdf1e29a593c93c9d81985776f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_exotic_1_1_jet_engine_1aac3f5bdf1e29a593c93c9d81985776f6" kindref="member">Description</ref><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;A<sp/>jet<sp/>engine<sp/>which<sp/>produces<sp/>a<sp/>lot<sp/>of<sp/>thrust.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Products/ScifiVehicle/Propulsion/Exotic/JetEngine.cs"/>
+  </compounddef>
+</doxygen>

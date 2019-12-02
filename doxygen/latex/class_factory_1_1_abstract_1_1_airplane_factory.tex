@@ -1,0 +1,128 @@
+\hypertarget{class_factory_1_1_abstract_1_1_airplane_factory}{}\doxysection{Factory.\+Abstract.\+Airplane\+Factory Class Reference}
+\label{class_factory_1_1_abstract_1_1_airplane_factory}\index{Factory.Abstract.AirplaneFactory@{Factory.Abstract.AirplaneFactory}}
+
+
+Inheritance diagram for Factory.\+Abstract.\+Airplane\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{class_factory_1_1_abstract_1_1_airplane_factory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Factory.\+Abstract.\+Airplane\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{class_factory_1_1_abstract_1_1_airplane_factory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_airplane_factory_af1a67d0a404389eac65c53be9b9e6c27}{Create\+Gasoline\+Powered}} ()
+\item 
+\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_airplane_factory_abd9588c1f6cb32f2e855d3f7a2bb0511}{Create\+Jet\+Powered}} ()
+\item 
+\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_airplane_factory_a08abcd7f4890dfcd697f1ae907d968c6}{Create\+Peddle\+Powered}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 6 of file Airplane\+Factory.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_factory_1_1_abstract_1_1_airplane_factory_af1a67d0a404389eac65c53be9b9e6c27}\label{class_factory_1_1_abstract_1_1_airplane_factory_af1a67d0a404389eac65c53be9b9e6c27}} 
+\index{Factory.Abstract.AirplaneFactory@{Factory.Abstract.AirplaneFactory}!CreateGasolinePowered@{CreateGasolinePowered}}
+\index{CreateGasolinePowered@{CreateGasolinePowered}!Factory.Abstract.AirplaneFactory@{Factory.Abstract.AirplaneFactory}}
+\doxysubsubsection{\texorpdfstring{CreateGasolinePowered()}{CreateGasolinePowered()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} Factory.\+Abstract.\+Airplane\+Factory.\+Create\+Gasoline\+Powered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_factory_1_1_abstract_1_1_i_vehicle_factory_aab25772028c860c08ef385b2523849d8}{Factory.\+Abstract.\+I\+Vehicle\+Factory}}.
+
+
+
+Definition at line 8 of file Airplane\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{9         \{}
+\DoxyCodeLine{10             \textcolor{keywordflow}{return} \textcolor{keyword}{new} \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder}{VehicleBuilder}}().\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_af78c4c17bc40c02fba320f0bebac48d6}{AddWheels}}(3).\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a42f0b58ddb901b473969e6b73ecafb21}{WithGasolineEngine}}.\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a5e397f0b77c789f568fe9a0855b03cfa}{WithColor}}(Color.FromName(\textcolor{stringliteral}{"White"})).Build();}
+\DoxyCodeLine{11         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_factory_1_1_abstract_1_1_airplane_factory_af1a67d0a404389eac65c53be9b9e6c27_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_factory_1_1_abstract_1_1_airplane_factory_abd9588c1f6cb32f2e855d3f7a2bb0511}\label{class_factory_1_1_abstract_1_1_airplane_factory_abd9588c1f6cb32f2e855d3f7a2bb0511}} 
+\index{Factory.Abstract.AirplaneFactory@{Factory.Abstract.AirplaneFactory}!CreateJetPowered@{CreateJetPowered}}
+\index{CreateJetPowered@{CreateJetPowered}!Factory.Abstract.AirplaneFactory@{Factory.Abstract.AirplaneFactory}}
+\doxysubsubsection{\texorpdfstring{CreateJetPowered()}{CreateJetPowered()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} Factory.\+Abstract.\+Airplane\+Factory.\+Create\+Jet\+Powered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_factory_1_1_abstract_1_1_i_vehicle_factory_a66d25846ec4df53e7f0144671f1eab99}{Factory.\+Abstract.\+I\+Vehicle\+Factory}}.
+
+
+
+Definition at line 13 of file Airplane\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{14         \{}
+\DoxyCodeLine{15             \textcolor{keywordflow}{return} \textcolor{keyword}{new} \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder}{VehicleBuilder}}().\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_af78c4c17bc40c02fba320f0bebac48d6}{AddWheels}}(3).\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a878c003e2f4bfa0a1a794f8b32bc6696}{WithJetEngine}}.\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a5e397f0b77c789f568fe9a0855b03cfa}{WithColor}}(Color.FromName(\textcolor{stringliteral}{"White"})).Build();}
+\DoxyCodeLine{16         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_factory_1_1_abstract_1_1_airplane_factory_abd9588c1f6cb32f2e855d3f7a2bb0511_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_factory_1_1_abstract_1_1_airplane_factory_a08abcd7f4890dfcd697f1ae907d968c6}\label{class_factory_1_1_abstract_1_1_airplane_factory_a08abcd7f4890dfcd697f1ae907d968c6}} 
+\index{Factory.Abstract.AirplaneFactory@{Factory.Abstract.AirplaneFactory}!CreatePeddlePowered@{CreatePeddlePowered}}
+\index{CreatePeddlePowered@{CreatePeddlePowered}!Factory.Abstract.AirplaneFactory@{Factory.Abstract.AirplaneFactory}}
+\doxysubsubsection{\texorpdfstring{CreatePeddlePowered()}{CreatePeddlePowered()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} Factory.\+Abstract.\+Airplane\+Factory.\+Create\+Peddle\+Powered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_factory_1_1_abstract_1_1_i_vehicle_factory_a518632dcd2f616a05cf645b81bdd62b5}{Factory.\+Abstract.\+I\+Vehicle\+Factory}}.
+
+
+
+Definition at line 18 of file Airplane\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{19         \{}
+\DoxyCodeLine{20             \textcolor{keywordflow}{return} \textcolor{keyword}{new} \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder}{VehicleBuilder}}().\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_af78c4c17bc40c02fba320f0bebac48d6}{AddWheels}}(3).\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_ae6bd5c5e9194a38b6dfaee569b48b029}{WithPeddles}}.\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a5e397f0b77c789f568fe9a0855b03cfa}{WithColor}}(Color.FromName(\textcolor{stringliteral}{"White"})).Build();}
+\DoxyCodeLine{21         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_factory_1_1_abstract_1_1_airplane_factory_a08abcd7f4890dfcd697f1ae907d968c6_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Factory/\+Abstract/\mbox{\hyperlink{_airplane_factory_8cs}{Airplane\+Factory.\+cs}}\end{DoxyCompactItemize}

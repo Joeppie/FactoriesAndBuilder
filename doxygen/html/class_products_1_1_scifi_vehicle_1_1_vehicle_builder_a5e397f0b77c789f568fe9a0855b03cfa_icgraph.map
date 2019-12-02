@@ -1,0 +1,15 @@
+<map id="Products.ScifiVehicle.VehicleBuilder.WithColor" name="Products.ScifiVehicle.VehicleBuilder.WithColor">
+<area shape="rect" id="node1" title=" " alt="" coords="263,365,456,407"/>
+<area shape="rect" id="node2" href="$class_factory_1_1_abstract_1_1_airplane_factory.html#af1a67d0a404389eac65c53be9b9e6c27" title=" " alt="" coords="5,5,215,47"/>
+<area shape="rect" id="node3" href="$class_factory_1_1_abstract_1_1_lease_car_factory.html#a449d5548a5430b1d7b8c15e7821590d4" title=" " alt="" coords="5,71,215,112"/>
+<area shape="rect" id="node4" href="$class_factory_1_1_abstract_1_1_flying_car_factory.html#a38ce4dc05cc16c94ccfe78d8cb3e697c" title=" " alt="" coords="5,136,215,177"/>
+<area shape="rect" id="node5" href="$class_factory_1_1_abstract_1_1_bicycle_factory.html#a1760277312c6830d6d3f4f65a2f797f8" title=" " alt="" coords="5,201,215,243"/>
+<area shape="rect" id="node6" href="$class_factory_1_1_abstract_1_1_airplane_factory.html#abd9588c1f6cb32f2e855d3f7a2bb0511" title=" " alt="" coords="23,267,197,308"/>
+<area shape="rect" id="node7" href="$class_factory_1_1_abstract_1_1_flying_car_factory.html#a0ffd232f2d84e99996c462631410cb0b" title="Jet engines are not profitable in lease due to frequent crashes, so we just use a gasoline engine ins..." alt="" coords="21,332,199,373"/>
+<area shape="rect" id="node8" href="$class_factory_1_1_abstract_1_1_lease_car_factory.html#abd310f2bfdec75eb50dc23d55f66929f" title="Jet engines are not profitable in lease due to frequent crashes, so we just use a gasoline engine ins..." alt="" coords="21,397,199,439"/>
+<area shape="rect" id="node9" href="$class_factory_1_1_abstract_1_1_bicycle_factory.html#a759c5ac6514ffdc41913043dd4f3c55b" title="Colin Furze&#39;s bicycle. https://www.youtube.com/watch?v=bKHz7wOjb9w" alt="" coords="23,463,197,504"/>
+<area shape="rect" id="node10" href="$class_factory_1_1_abstract_1_1_airplane_factory.html#a08abcd7f4890dfcd697f1ae907d968c6" title=" " alt="" coords="11,528,209,569"/>
+<area shape="rect" id="node11" href="$class_factory_1_1_abstract_1_1_lease_car_factory.html#a6b92c41565e5debd00db01f79ffb98b9" title=" " alt="" coords="11,593,209,635"/>
+<area shape="rect" id="node12" href="$class_factory_1_1_abstract_1_1_flying_car_factory.html#a0b5ff09f504d9b138805f22cd46ca641" title=" " alt="" coords="11,659,209,700"/>
+<area shape="rect" id="node13" href="$class_factory_1_1_abstract_1_1_bicycle_factory.html#a7e0facba03372dc1c456562f5140a2b7" title=" " alt="" coords="11,724,209,765"/>
+</map>

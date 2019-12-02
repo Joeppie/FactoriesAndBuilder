@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="_peddles_8cs" kind="file" language="C#">
+    <compoundname>Peddles.cs</compoundname>
+    <innerclass refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles" prot="package">Products::ScifiCars::Propulsion::Conventional::Peddles</innerclass>
+    <innernamespace refid="namespace_products">Products</innernamespace>
+    <innernamespace refid="namespace_products_1_1_scifi_cars">Products::ScifiCars</innernamespace>
+    <innernamespace refid="namespace_products_1_1_scifi_cars_1_1_propulsion">Products::ScifiCars::Propulsion</innernamespace>
+    <innernamespace refid="namespace_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional">Products::ScifiCars::Propulsion::Conventional</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional" kindref="compound">Products.ScifiCars.Propulsion.Conventional</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">internal</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles" kindref="compound">Peddles</ref><sp/>:<sp/><ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system" kindref="compound">PropulsionSystem</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5" refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles_1a854c7940ab898e1cd7861d9db2c124bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles_1a854c7940ab898e1cd7861d9db2c124bb" kindref="member">Description</ref><sp/>=&gt;<sp/></highlight><highlight class="stringliteral">&quot;A<sp/>peddle<sp/>powered<sp/>solution.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Products/ScifiVehicle/Propulsion/Conventional/Peddles.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,94 @@
+\hypertarget{class_factories_and_builder_1_1_program}{}\doxysection{Factories\+And\+Builder.\+Program Class Reference}
+\label{class_factories_and_builder_1_1_program}\index{FactoriesAndBuilder.Program@{FactoriesAndBuilder.Program}}
+
+
+Collaboration diagram for Factories\+And\+Builder.\+Program\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=224pt]{class_factories_and_builder_1_1_program__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_factories_and_builder_1_1_program_a507f4d9ab1a81808e42324a974d3f04f}{Main}} (string\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 7 of file Program.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_factories_and_builder_1_1_program_a507f4d9ab1a81808e42324a974d3f04f}\label{class_factories_and_builder_1_1_program_a507f4d9ab1a81808e42324a974d3f04f}} 
+\index{FactoriesAndBuilder.Program@{FactoriesAndBuilder.Program}!Main@{Main}}
+\index{Main@{Main}!FactoriesAndBuilder.Program@{FactoriesAndBuilder.Program}}
+\doxysubsubsection{\texorpdfstring{Main()}{Main()}}
+{\footnotesize\ttfamily static void Factories\+And\+Builder.\+Program.\+Main (\begin{DoxyParamCaption}\item[{string\mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}
+
+
+
+Definition at line 9 of file Program.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{10         \{}
+\DoxyCodeLine{11 \textcolor{preprocessor}{            \#region simple factory}}
+\DoxyCodeLine{12             \textcolor{comment}{//Simple factory; geen interfaces, geen abstract classes, allemaal simpele implementaties.}}
+\DoxyCodeLine{13             var simplePizzaFactory = \textcolor{keyword}{new} \mbox{\hyperlink{class_factory_1_1_simple_1_1_simple_pizza_factory}{SimplePizzaFactory}}();}
+\DoxyCodeLine{14             var pizza = simplePizzaFactory.CreatePizza();}
+\DoxyCodeLine{15 \textcolor{preprocessor}{            \#endregion}}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 \textcolor{preprocessor}{            \#region method factory}}
+\DoxyCodeLine{20             \textcolor{comment}{//method factory; geen interfaces, geen abstract classes, allemaal simpele implementaties.}}
+\DoxyCodeLine{21             var margheritaPizzaFactory = \textcolor{keyword}{new} \mbox{\hyperlink{class_factory_1_1_pizza_margherita_factory}{PizzaMargheritaFactory}}();}
+\DoxyCodeLine{22             var margherita = margheritaPizzaFactory.CreatePizza();}
+\DoxyCodeLine{23 \textcolor{preprocessor}{            \#endregion}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 }
+\DoxyCodeLine{26 \textcolor{preprocessor}{            \#region abstract factory}}
+\DoxyCodeLine{27             \textcolor{comment}{//Abstract factory; iedere van de aangemaakte 'soorten' objecten zijn aan elkaar gerelateerd per factory.}}
+\DoxyCodeLine{28             \textcolor{comment}{//Bijvoorbeeld een Auto, Vliegtuig en }}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30             \textcolor{comment}{//Create several bicycle objects; common in that they have two wheels.}}
+\DoxyCodeLine{31             var bicycleFactory = \textcolor{keyword}{new} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_bicycle_factory}{BicycleFactory}}();}
+\DoxyCodeLine{32 }
+\DoxyCodeLine{33             var motorcycle = bicycleFactory.CreateGasolinePowered();}
+\DoxyCodeLine{34             var colinFurzesBike = bicycleFactory.CreateJetPowered(); \textcolor{comment}{//Deze fiets is speciaal; hij heeft ook pedalen.}}
+\DoxyCodeLine{35             var bike = bicycleFactory.CreatePeddlePowered();}
+\DoxyCodeLine{36 }
+\DoxyCodeLine{37             \textcolor{comment}{//Create several leased cars, common in that they have four wheels, are gray, and may be a bit boring.}}
+\DoxyCodeLine{38             var carFactory = \textcolor{keyword}{new} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_lease_car_factory}{LeaseCarFactory}}();}
+\DoxyCodeLine{39             }
+\DoxyCodeLine{40             var leaseCar = carFactory.CreateGasolinePowered();}
+\DoxyCodeLine{41             var leisureCar = carFactory.CreateJetPowered();}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43             \textcolor{comment}{//Create some planes}}
+\DoxyCodeLine{44             var planeFactory = \textcolor{keyword}{new} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_airplane_factory}{AirplaneFactory}}();}
+\DoxyCodeLine{45             var propellerPlane = planeFactory.CreateGasolinePowered();}
+\DoxyCodeLine{46             var corporateJet = planeFactory.CreateJetPowered();}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49             \textcolor{comment}{//Back to the future FTW}}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{51             var futureFactory = \textcolor{keyword}{new} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_flying_car_factory}{FlyingCarFactory}}();}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{53             var delorian = futureFactory.CreateJetPowered();}
+\DoxyCodeLine{54 \textcolor{preprocessor}{            \#endregion}}
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57 }
+\DoxyCodeLine{58         \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Factories\+And\+Builder/\mbox{\hyperlink{_program_8cs}{Program.\+cs}}\end{DoxyCompactItemize}

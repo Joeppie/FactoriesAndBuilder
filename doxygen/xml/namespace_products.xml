@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespace_products" kind="namespace" language="C#">
+    <compoundname>Products</compoundname>
+    <innernamespace refid="namespace_products_1_1_pizzas">Products::Pizzas</innernamespace>
+    <innernamespace refid="namespace_products_1_1_scifi_cars">Products::ScifiCars</innernamespace>
+    <innernamespace refid="namespace_products_1_1_scifi_vehicle">Products::ScifiVehicle</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Products/Pizzas/Pizzas.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,145 @@
+\hypertarget{class_factory_1_1_abstract_1_1_bicycle_factory}{}\doxysection{Factory.\+Abstract.\+Bicycle\+Factory Class Reference}
+\label{class_factory_1_1_abstract_1_1_bicycle_factory}\index{Factory.Abstract.BicycleFactory@{Factory.Abstract.BicycleFactory}}
+
+
+Inheritance diagram for Factory.\+Abstract.\+Bicycle\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{class_factory_1_1_abstract_1_1_bicycle_factory__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Factory.\+Abstract.\+Bicycle\+Factory\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=216pt]{class_factory_1_1_abstract_1_1_bicycle_factory__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_bicycle_factory_a1760277312c6830d6d3f4f65a2f797f8}{Create\+Gasoline\+Powered}} ()
+\item 
+\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_bicycle_factory_a759c5ac6514ffdc41913043dd4f3c55b}{Create\+Jet\+Powered}} ()
+\begin{DoxyCompactList}\small\item\em Colin Furze\textquotesingle{}s bicycle. \begin{DoxySeeAlso}{See also}
+https\+://www.\+youtube.\+com/watch?v=b\+K\+Hz7w\+Ojb9w
+
+
+\end{DoxySeeAlso}
+\end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} \mbox{\hyperlink{class_factory_1_1_abstract_1_1_bicycle_factory_a7e0facba03372dc1c456562f5140a2b7}{Create\+Peddle\+Powered}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 9 of file Bicycle\+Factory.\+cs.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_factory_1_1_abstract_1_1_bicycle_factory_a1760277312c6830d6d3f4f65a2f797f8}\label{class_factory_1_1_abstract_1_1_bicycle_factory_a1760277312c6830d6d3f4f65a2f797f8}} 
+\index{Factory.Abstract.BicycleFactory@{Factory.Abstract.BicycleFactory}!CreateGasolinePowered@{CreateGasolinePowered}}
+\index{CreateGasolinePowered@{CreateGasolinePowered}!Factory.Abstract.BicycleFactory@{Factory.Abstract.BicycleFactory}}
+\doxysubsubsection{\texorpdfstring{CreateGasolinePowered()}{CreateGasolinePowered()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} Factory.\+Abstract.\+Bicycle\+Factory.\+Create\+Gasoline\+Powered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_factory_1_1_abstract_1_1_i_vehicle_factory_aab25772028c860c08ef385b2523849d8}{Factory.\+Abstract.\+I\+Vehicle\+Factory}}.
+
+
+
+Definition at line 11 of file Bicycle\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{12         \{}
+\DoxyCodeLine{13             \textcolor{keywordflow}{return} \textcolor{keyword}{new} \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder}{VehicleBuilder}}().\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_af78c4c17bc40c02fba320f0bebac48d6}{AddWheels}}(2).\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a42f0b58ddb901b473969e6b73ecafb21}{WithGasolineEngine}}.\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a5e397f0b77c789f568fe9a0855b03cfa}{WithColor}}(Color.FromName(\textcolor{stringliteral}{"Red"})).Build();}
+\DoxyCodeLine{14         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_factory_1_1_abstract_1_1_bicycle_factory_a1760277312c6830d6d3f4f65a2f797f8_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_factory_1_1_abstract_1_1_bicycle_factory_a759c5ac6514ffdc41913043dd4f3c55b}\label{class_factory_1_1_abstract_1_1_bicycle_factory_a759c5ac6514ffdc41913043dd4f3c55b}} 
+\index{Factory.Abstract.BicycleFactory@{Factory.Abstract.BicycleFactory}!CreateJetPowered@{CreateJetPowered}}
+\index{CreateJetPowered@{CreateJetPowered}!Factory.Abstract.BicycleFactory@{Factory.Abstract.BicycleFactory}}
+\doxysubsubsection{\texorpdfstring{CreateJetPowered()}{CreateJetPowered()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} Factory.\+Abstract.\+Bicycle\+Factory.\+Create\+Jet\+Powered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Colin Furze\textquotesingle{}s bicycle. \begin{DoxySeeAlso}{See also}
+https\+://www.\+youtube.\+com/watch?v=b\+K\+Hz7w\+Ojb9w
+
+
+\end{DoxySeeAlso}
+
+
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_factory_1_1_abstract_1_1_i_vehicle_factory_a66d25846ec4df53e7f0144671f1eab99}{Factory.\+Abstract.\+I\+Vehicle\+Factory}}.
+
+
+
+Definition at line 21 of file Bicycle\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{22         \{}
+\DoxyCodeLine{23             \textcolor{keywordflow}{return} \textcolor{keyword}{new} \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder}{VehicleBuilder}}().\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_af78c4c17bc40c02fba320f0bebac48d6}{AddWheels}}(2).\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a878c003e2f4bfa0a1a794f8b32bc6696}{WithJetEngine}}.\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_ae6bd5c5e9194a38b6dfaee569b48b029}{WithPeddles}}.\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a5e397f0b77c789f568fe9a0855b03cfa}{WithColor}}(Color.FromName(\textcolor{stringliteral}{"Gray"})).Build();}
+\DoxyCodeLine{24         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_factory_1_1_abstract_1_1_bicycle_factory_a759c5ac6514ffdc41913043dd4f3c55b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_factory_1_1_abstract_1_1_bicycle_factory_a7e0facba03372dc1c456562f5140a2b7}\label{class_factory_1_1_abstract_1_1_bicycle_factory_a7e0facba03372dc1c456562f5140a2b7}} 
+\index{Factory.Abstract.BicycleFactory@{Factory.Abstract.BicycleFactory}!CreatePeddlePowered@{CreatePeddlePowered}}
+\index{CreatePeddlePowered@{CreatePeddlePowered}!Factory.Abstract.BicycleFactory@{Factory.Abstract.BicycleFactory}}
+\doxysubsubsection{\texorpdfstring{CreatePeddlePowered()}{CreatePeddlePowered()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle}{Vehicle}} Factory.\+Abstract.\+Bicycle\+Factory.\+Create\+Peddle\+Powered (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_factory_1_1_abstract_1_1_i_vehicle_factory_a518632dcd2f616a05cf645b81bdd62b5}{Factory.\+Abstract.\+I\+Vehicle\+Factory}}.
+
+
+
+Definition at line 26 of file Bicycle\+Factory.\+cs.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{27         \{}
+\DoxyCodeLine{28             \textcolor{keywordflow}{return} \textcolor{keyword}{new} \mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder}{VehicleBuilder}}().\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_af78c4c17bc40c02fba320f0bebac48d6}{AddWheels}}(2).\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_ae6bd5c5e9194a38b6dfaee569b48b029}{WithPeddles}}.\mbox{\hyperlink{class_products_1_1_scifi_vehicle_1_1_vehicle_builder_a5e397f0b77c789f568fe9a0855b03cfa}{WithColor}}(Color.FromName(\textcolor{stringliteral}{"Yellow"})).Build();}
+\DoxyCodeLine{29         \}}
+
+\end{DoxyCode}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_factory_1_1_abstract_1_1_bicycle_factory_a7e0facba03372dc1c456562f5140a2b7_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Factory/\+Abstract/\mbox{\hyperlink{_bicycle_factory_8cs}{Bicycle\+Factory.\+cs}}\end{DoxyCompactItemize}

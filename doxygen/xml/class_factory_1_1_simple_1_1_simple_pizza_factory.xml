@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_factory_1_1_simple_1_1_simple_pizza_factory" kind="class" language="C#" prot="public">
+    <compoundname>Factory::Simple::SimplePizzaFactory</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_factory_1_1_simple_1_1_simple_pizza_factory_1a51c48a48ab68dda4aab8717d8b39a5a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_products_1_1_pizzas_1_1_pizza" kindref="compound">Pizza</ref></type>
+        <definition>Pizza Factory.Simple.SimplePizzaFactory.CreatePizza</definition>
+        <argsstring>()</argsstring>
+        <name>CreatePizza</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Factory/Simple/SimplePizzaFactory.cs" line="9" column="22" bodyfile="Factory/Simple/SimplePizzaFactory.cs" bodystart="9" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Factory.Simple.SimplePizzaFactory</label>
+        <link refid="class_factory_1_1_simple_1_1_simple_pizza_factory"/>
+      </node>
+    </collaborationgraph>
+    <location file="Factory/Simple/SimplePizzaFactory.cs" line="7" column="1" bodyfile="Factory/Simple/SimplePizzaFactory.cs" bodystart="6" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_factory_1_1_simple_1_1_simple_pizza_factory_1a51c48a48ab68dda4aab8717d8b39a5a3" prot="public" virt="non-virtual"><scope>Factory::Simple::SimplePizzaFactory</scope><name>CreatePizza</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

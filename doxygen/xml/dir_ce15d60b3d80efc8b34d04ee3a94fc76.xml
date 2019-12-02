@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="dir_ce15d60b3d80efc8b34d04ee3a94fc76" kind="dir">
+    <compoundname>Products/ScifiVehicle/Propulsion/Conventional</compoundname>
+    <innerfile refid="_gasoline_engine_8cs">GasolineEngine.cs</innerfile>
+    <innerfile refid="_peddles_8cs">Peddles.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Products/ScifiVehicle/Propulsion/Conventional/"/>
+  </compounddef>
+</doxygen>

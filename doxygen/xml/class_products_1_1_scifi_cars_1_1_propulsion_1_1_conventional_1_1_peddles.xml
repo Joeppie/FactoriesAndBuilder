@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles" kind="class" language="C#" prot="package">
+    <compoundname>Products::ScifiCars::Propulsion::Conventional::Peddles</compoundname>
+    <basecompoundref refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system" prot="public" virt="non-virtual">Products.ScifiCars.Propulsion.PropulsionSystem</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles_1a854c7940ab898e1cd7861d9db2c124bb" prot="public" static="no" mutable="no">
+        <type>override string</type>
+        <definition>override string Products.ScifiCars.Propulsion.Conventional.Peddles.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <initializer>=&gt; &quot;A peddle powered solution.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Products/ScifiVehicle/Propulsion/Conventional/Peddles.cs" line="5" column="32" bodyfile="Products/ScifiVehicle/Propulsion/Conventional/Peddles.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>PropulsionSystem</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system"/>
+      </node>
+      <node id="1">
+        <label>Products.ScifiCars.Propulsion.Conventional.Peddles</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>PropulsionSystem</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system"/>
+      </node>
+      <node id="1">
+        <label>Products.ScifiCars.Propulsion.Conventional.Peddles</label>
+        <link refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Products/ScifiVehicle/Propulsion/Conventional/Peddles.cs" line="4" column="1" bodyfile="Products/ScifiVehicle/Propulsion/Conventional/Peddles.cs" bodystart="3" bodyend="6"/>
+    <listofallmembers>
+      <member refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1ac25a01e3304c4c00b5e12741cade7c8f" prot="public" virt="non-virtual"><scope>Products::ScifiCars::Propulsion::Conventional::Peddles</scope><name>CanFly</name></member>
+      <member refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_conventional_1_1_peddles_1a854c7940ab898e1cd7861d9db2c124bb" prot="public" virt="non-virtual"><scope>Products::ScifiCars::Propulsion::Conventional::Peddles</scope><name>Description</name></member>
+      <member refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a5502848d179f88e2fb831fed562f0de4" prot="public" virt="non-virtual"><scope>Products::ScifiCars::Propulsion::Conventional::Peddles</scope><name>fuelEfficiencyPercent</name></member>
+      <member refid="class_products_1_1_scifi_cars_1_1_propulsion_1_1_propulsion_system_1a1bc90ae009a136a9acd2f1660093d89f" prot="public" virt="non-virtual"><scope>Products::ScifiCars::Propulsion::Conventional::Peddles</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
